@@ -12,20 +12,12 @@ namespace Avoidance
         /// Edit these with your app id's.
         /// </summary>
 #if UNITY_ANDROID
-    private static readonly string ANDROID_APP_ID = "com.gandhigames.avoidance";
-#elif UNITY_IOS
-    private static readonly string IOS_APP_ID = "000000000";
-#endif
-
-        /// <summary>
-        /// The subject shown when sharing on Android.
-        /// </summary>
+        private static readonly string ANDROID_APP_ID = "com.appid";
         private static readonly string SUBJECT = "";
-
-        /// <summary>
-        /// The body of the text shown when sharing on Android.
-        /// </summary>
-        private static readonly string BODY = "Can you beat my score in Avoidance?";
+        private static readonly string BODY = "Can you beat my score in Avoid?";
+#elif UNITY_IOS
+        private static readonly string IOS_APP_ID = "000000000";
+#endif
 
         /// <summary>
         /// Opens a URL to googleplay store or itunes store.
